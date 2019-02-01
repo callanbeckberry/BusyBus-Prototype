@@ -3,8 +3,9 @@
 }
 body {
   background-color: #ffffff;
-  font-family: sans-serif;
+  font-family: SF Pro Text;
   font-size: 10px;
+  width:375px;
 }
 
 li{
@@ -47,7 +48,7 @@ ul{
 
 .navtitle{
   font-size:1.6em;
-  margin-top:4px;
+  margin-top:3px;
   font-weight:bold;
   color:#444444;
 }
@@ -60,15 +61,27 @@ ul{
   background-position: center center;
 }
 
-.returnmap{
-  text-indent:25px;
-  font-size:1.5em;
-  width: 25px;
+.returnbutton{
+  width:25px;
   height:25px;
+  display:flex;
+}
+
+.arrowleft{
+  width:20px;
+  height:20px;
   background-image:url(../images/arrow-left.png);
   background-repeat: no-repeat;
   background-position: center center;
+
+}
+
+.returntext{
+  padding-top:3px;
+  padding-left:3px;
+  width:5px;
   color:#1d82ff;
+  font-size: 1.5em;
 }
 
 .routelist{
@@ -80,7 +93,6 @@ ul{
 
 .direction {
   height:25px;
-  margin:2px;
   background: #eaeaea;
   font-size: 1.2em;
   color:#000000;
