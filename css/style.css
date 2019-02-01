@@ -32,7 +32,9 @@ ul{
   align-self:flex-start;
   height: 20px;
   width:100%;
-  background-color:#000000;
+  background-image:url(../images/UI-bar.png);
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .navinfo{
@@ -53,7 +55,9 @@ ul{
 .navheart{
   width:25px;
   height:25px;
-  background-color:#000000;
+  background-image:url(../images/heart-icon.png);
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .returnmap{
@@ -61,7 +65,9 @@ ul{
   font-size:1.5em;
   width: 25px;
   height:25px;
-  border: 3px dashed #1c87c9;
+  background-image:url(../images/arrow-left.png);
+  background-repeat: no-repeat;
+  background-position: center center;
   color:#1d82ff;
 }
 
@@ -156,7 +162,9 @@ ul{
 .arrowright{
   align:right;
   width: 40px;
-  border: 3px dashed #1c87c9;
+  background-image:url(../images/arrow-right.png);
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .divider{
@@ -193,22 +201,25 @@ ul{
 }
 
 .appmenumap{
-  margin-top:4px;
-  width:50px;
-  height:30px;
-  background-color:#000000;
+  width:60px;
+  height:36px;
+  object-fit:contain;
+  background-image:url(../images/map.jpg);
+  background-size:cover;
 }
 
 .appmenuheart{
-  margin-top:4px;
-  width:50px;
-  height:30px;
-  background-color:#000000;
+  width:60px;
+  height:36px;
+  object-fit:contain;
+  background-image:url(../images/your-stop.jpg);
+  background-size:cover;
 }
 
 .appmenudir{
-  margin-top:4px;
-  width:50px;
-  height:30px;
-  background-color:#000000;
+  width:60px;
+  height:36px;
+  object-fit:cover;
+  background-image:url(../images/directions.jpg);
+  background-size:cover;
 }
