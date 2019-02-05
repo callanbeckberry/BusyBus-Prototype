@@ -17,7 +17,7 @@ ul{
 }
 
 .navbar {
-  position: fixed;
+  position:fixed;
   background-color:#f8f8f8;
   width: 100%;
   height: 64px;
@@ -112,15 +112,13 @@ ul{
   padding:10px;
   height: 100px;
   display:flex;
-  margin: 10px;
 }
-
 
 .linegood {
   border-radius:10px;
   display:flex;
   background: #01B41F;
-  width: 120px;
+  width: 80px;
   height: 80px;
   justify-content:center;
 }
@@ -129,7 +127,7 @@ ul{
   border-radius:10px;
   display:flex;
   background: #fc940a;
-  width: 120px;
+  width: 80px;
   height: 80px;
   justify-content:center;
 }
@@ -138,7 +136,7 @@ ul{
   border-radius:10px;
   display:flex;
   background: #8c8c8c;
-  width: 120px;
+  width: 80px;
   height: 80px;
   justify-content:center;
 }
