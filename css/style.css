@@ -3,7 +3,7 @@
 }
 body {
   background-color: #ffffff;
-  font-family: SF Pro Text;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   font-size: 10px;
   width:375px;
 }
@@ -71,9 +71,9 @@ ul{
   width:20px;
   height:20px;
   background-image:url(../images/arrow-left.png);
+  object-fit:contain;
   background-repeat: no-repeat;
   background-position: center center;
-
 }
 
 .returntext{
@@ -110,7 +110,6 @@ ul{
 
 .row{
   padding:10px;
-  width: 375px;
   height: 100px;
   display:flex;
   margin: 10px;
@@ -121,7 +120,7 @@ ul{
   border-radius:10px;
   display:flex;
   background: #01B41F;
-  width: 100px;
+  width: 120px;
   height: 80px;
   justify-content:center;
 }
@@ -130,7 +129,7 @@ ul{
   border-radius:10px;
   display:flex;
   background: #fc940a;
-  width: 100px;
+  width: 120px;
   height: 80px;
   justify-content:center;
 }
@@ -139,17 +138,30 @@ ul{
   border-radius:10px;
   display:flex;
   background: #8c8c8c;
-  width: 100px;
+  width: 120px;
   height: 80px;
   justify-content:center;
 }
 
 .lineinfo {
-  padding-top:25px;
-  font-size: 3em;
-  font-weight:bold;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
   color:#ffffff;
 }
+
+.linename{
+  text-align: center;
+  font-size:3em;
+  font-weight:bold;
+}
+
+.nextdepart{
+  text-align: center;
+  padding-top: 5px;
+  font-size:1.2em;
+}
+
 
 .details{
   display:flex;
@@ -160,14 +172,14 @@ ul{
 
 .destination{
   color:#444444;
-  width: 240px;
+  width: 220px;
   font-weight:bold;
   font-size:1.7em;
 }
 
 .frequency{
   color:#444444;
-  width: 240px;
+  width: 220px;
   font-size:1.5em;
   padding-top:5px;
 }
@@ -188,9 +200,9 @@ ul{
 
 .hline{
  height:1px;
- width:75%;
+ width:72%;
  margin-left:auto;
- background-color:#8c8c8c;
+ background-color:#cfcfcf;
 }
 
 .appmenu {
@@ -205,34 +217,64 @@ ul{
   border-top:1px solid #cfcfcf;
 }
 
-.appmenubuttons{
+.appmenuoptions{
   display:flex;
   width:100%;
   justify-content:space-evenly;
   align-self:flex-end;
-  padding:10px;
 }
 
-.appmenumap{
+.appmenubutton{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items: center;
+  height:50px;
   width:60px;
-  height:36px;
-  object-fit:contain;
-  background-image:url(../images/map.jpg);
-  background-size:cover;
+  padding-bottom: 10px;
+}
+
+.appmenutext{
+  color:#8C8C8C;
+  font-size: 1em;
+  text-align: center;
+  height: 5px;
+  width: auto;
+  padding-top: 3px;
+}
+
+.appmenutextselected{
+  color:#1d82ff;
+  font-size: 1em;
+  text-align: center;
+  height: 5px;
+  width: auto;
+  padding-top: 3px;
 }
 
 .appmenuheart{
-  width:60px;
-  height:36px;
+  width:25px;
+  height: 23px;
   object-fit:contain;
-  background-image:url(../images/your-stop.jpg);
-  background-size:cover;
+  background-image:url(../images/app-menu-heart.png);
+  background-size: auto;
+  background-repeat:no-repeat;
+}
+
+.appmenumap{
+  width:25px;
+  height:23px;
+  object-fit:contain;
+  background-image:url(../images/app-menu-map.png);
+  background-size:auto;
+  background-repeat:no-repeat;
 }
 
 .appmenudir{
-  width:60px;
-  height:36px;
-  object-fit:cover;
-  background-image:url(../images/directions.jpg);
-  background-size:cover;
+  width:25px;
+  height:23px;
+  object-fit:contain;
+  background-image:url(../images/app-menu-compass.png);
+  background-size:auto;
+  background-repeat:no-repeat;
 }

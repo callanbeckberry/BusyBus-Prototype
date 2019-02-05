@@ -1,172 +1,219 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>BusyBus</title>
-    <link rel="stylesheet" href="css/reset.css">
-   <link rel="stylesheet" href="css/style.css">
-  </head>
+<head>
 
-  <body>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BusyBus</title>
+  <link rel="stylesheet" href="css/reset.css">
+ <link rel="stylesheet" href="css/style.css">
 
-    <div class="navbar">
-      <ul class="navoverhead"></ul>
-        <ul class="navinfo">
-          <li class="returnbutton">
-            <div class="arrowleft"></div>
-            <div class="returntext">Map</div>
-          </li>
-          <li class="navtitle">Washington & State</li>
-          <li class="navheart"></li>
-         </ul>
-    </div>
+</head>
 
- <section class="routelist">
-      <div class="direction">
-        <section class="status">Eastbound</section>
-      </div>
+<body>
 
-      <div class="row">
-        <div class="linegood">
-          <div class="lineinfo">60</div>
-        </div>
-          <div class="details">
-            <div class="destination">Randolph/Harbor Dr</div>
-            <div class= "frequency">Every 20 minutes</div>
-          </div>
-        <div class="arrowright"></div>
-      </div>
+  <section class="navbar">
 
-       <div class="divider">
-        <div class="hline"></div>
-       </div>
+    <ul class="navoverhead"></ul>
+    <ul class="navinfo">
+      <li class="returnbutton">
+        <div class="arrowleft"></div>
+        <div class="returntext">Map</div>
+      </li>
+      <li class="navtitle">Washington & State</li>
+      <li class="navheart"></li>
+   </ul>
 
-            <div class="row">
-        <div class="linegood">
-          <div class="lineinfo">124</div>
-        </div>
-          <div class="details">
-            <div class="destination">Navy Pier</div>
-            <div class= "frequency">Every 10 minutes</div>
-          </div>
-        <div class="arrowright"></div>
-      </div>
+  </section>
 
-      <div class="direction">
-        <section class="status">Northbound</section>
-      </div>
+  <section class="routelist">
 
-      <div class="row">
-        <div class="linegood">
-          <div class="lineinfo">151</div>
-        </div>
-          <div class="details">
-            <div class="destination">Devon/Clark</div>
-            <div class= "frequency">Every 16 minutes</div>
-          </div>
-        <div class="arrowright"></div>
-      </div>
+    <ul class="direction">
+      <div class="status">Eastbound</div>
+    </ul>
 
-  <div class="direction">
-        <section class="status">Southbound</section>
-      </div>
+    <ul class="row">
+      <li class="linegood">
+        <ul class="lineinfo">
+          <li class="linename">60</li>
+          <li class="nextdepart">9:45 AM</li>
+        </ul>
+      </li>
+      <li class="details">
+        <ul class="destination">Randolph/Harbor Dr</ul>
+        <ul class= "frequency">Every 20 minutes</ul>
+      </li>
+      <li class="arrowright"></li>
+    </ul>
 
-      <div class="row">
-        <div class="linegood">
-          <div class="lineinfo">J14</div>
-        </div>
-          <div class="details">
-            <div class="destination">103rd/Stony Island</div>
-            <div class= "frequency">Every 15 minutes</div>
-          </div>
-        <div class="arrowright"></div>
-      </div>
+    <ul class="divider">
+      <li class="hline"></li>
+    </ul>
 
-       <div class="divider">
-        <div class="hline"></div>
-       </div>
+    <ul class="row">
+      <li class="linegood">
+        <ul class="lineinfo">
+          <li class="linename">124</li>
+          <li class="nextdepart">9:50 AM</li>
+        </ul>
+      </li>
+      <li class="details">
+        <ul class="destination">Navy Pier</ul>
+        <ul class= "frequency">Every 10 minutes</ul>
+      </li>
+      <li class="arrowright"></li>
+    </ul>
 
-            <div class="row">
-        <div class="linegood">
-          <div class="lineinfo">124</div>
-        </div>
-          <div class="details">
-            <div class="destination">Navy Pier</div>
-            <div class= "frequency">Every 10 minutes</div>
-          </div>
-        <div class="arrowright"></div>
-      </div>
+    <ul class="direction">
+      <div class="status">Northbound</div>
+    </ul>
 
-       <div class="direction">
-        <section class="status">Reroute</section>
-      </div>
+    <ul class="row">
+      <li class="linegood">
+        <ul class="lineinfo">
+          <li class="linename">151</li>
+          <li class="nextdepart">9:56 AM</li>
+        </ul>
+      </li>
+      <li class="details">
+        <ul class="destination">Devon/Clark</ul>
+        <ul class= "frequency">Every 16 minutes</ul>
+      </li>
+      <li class="arrowright"></li>
+    </ul>
 
-      <div class="row">
-        <div class="linereroute">
-          <div class="lineinfo">6x</div>
-        </div>
-          <div class="details">
-            <div class="destination">Jackson Park Express</div>
-            <div class= "frequency">N/A</div>
-          </div>
-        <div class="arrowright"></div>
-      </div>
+    <ul class="direction">
+      <div class="status">Southbound</div>
+    </ul>
 
-   <div class="direction">
-        <section class="status">Out of service</section>
-      </div>
+    <ul class="row">
+      <li class="linegood">
+        <ul class="lineinfo">
+          <li class="linename">J14</li>
+          <li class="nextdepart">9:45 AM</li>
+        </ul>
+      </li>
+      <li class="details">
+        <ul class="destination">103rd/Stony Island</ul>
+        <ul class= "frequency">Every 15 minutes</ul>
+      </li>
+      <li class="arrowright"></li>
+    </ul>
 
-      <div class="row">
-        <div class="lineoos">
-          <div class="lineinfo">4</div>
-        </div>
-          <div class="details">
-            <div class="destination">Cottage Grove</div>
-            <div class= "frequency">Resumes 12:10am</div>
-          </div>
-        <div class="arrowright"></div>
-      </div>
+    <ul class="divider">
+      <li class="hline"></li>
+    </ul>
 
-       <div class="divider">
-        <div class="hline"></div>
-       </div>
+    <ul class="row">
+      <li class="linegood">
+        <ul class="lineinfo">
+          <li class="linename">124</li>
+          <li class="nextdepart">9:50 AM</li>
+        </ul>
+      </li>
+      <li class="details">
+        <ul class="destination">Navy Pier</ul>
+        <ul class= "frequency">Every 10 minutes</ul>
+      </li>
+      <li class="arrowright"></li>
+    </ul>
 
-            <div class="row">
-        <div class="lineoos">
-          <div class="lineinfo">20</div>
-        </div>
-          <div class="details">
-            <div class="destination">Madison</div>
-            <div class= "frequency">Resumes 12:10am</div>
-          </div>
-        <div class="arrowright"></div>
-      </div>
+    <ul class="direction">
+      <div class="status">Reroute</div>
+    </ul>
 
-   <div class="divider">
-        <div class="hline"></div>
-       </div>
+    <ul class="row">
+      <li class="linereroute">
+        <ul class="lineinfo">
+          <li class="linename">6x</li>
+          <li class="nextdepart">N/A</li>
+        </ul>
+      </li>
+      <li class="details">
+        <ul class="destination">Jackson Park Express</ul>
+        <ul class= "frequency">N/A</ul>
+      </li>
+      <li class="arrowright"></li>
+    </ul>
 
-   <div class="row">
-        <div class="lineoos">
-          <div class="lineinfo">157</div>
-        </div>
-          <div class="details">
-            <div class="destination">Streeterville/Taylor</div>
-            <div class= "frequency">Resumes 6:00am</div>
-          </div>
-        <div class="arrowright"></div>
-      </div>
+    <ul class="direction">
+      <div class="status">Out of service</div>
+    </ul>
 
-    </section>
+    <ul class="row">
+      <li class="lineoos">
+        <ul class="lineinfo">
+          <li class="linename">4</li>
+          <li class="nextdepart">12:10 AM</li>
+        </ul>
+      </li>
+      <li class="details">
+        <ul class="destination">Cottage Grove</ul>
+        <ul class= "frequency">Resumes 12:10 AM</ul>
+      </li>
+      <li class="arrowright"></li>
+    </ul>
 
-   <div class="appmenu">
-     <ul class="appmenubuttons">
-       <li class="appmenuheart">
-          <li class="appmenumap"></li>
-          <li class="appmenudir"</li>
-         </ul>
-    </div>
+    <ul class="divider">
+      <li class="hline"></li>
+    </ul>
 
-  </body>
+    <ul class="row">
+      <li class="lineoos">
+        <ul class="lineinfo">
+          <li class="linename">20</li>
+          <li class="nextdepart">12:10 AM</li>
+        </ul>
+      </li>
+      <li class="details">
+        <ul class="destination">Madison</ul>
+        <ul class= "frequency">Resumes 12:10 AM</ul>
+      </li>
+      <li class="arrowright"></li>
+    </ul>
+
+    <ul class="divider">
+      <li class="hline"></li>
+    </ul>
+
+    <ul class="row">
+      <li class="lineoos">
+        <ul class="lineinfo">
+          <li class="linename">157</li>
+          <li class="nextdepart">6:00 AM</li>
+        </ul>
+      </li>
+      <li class="details">
+        <ul class="destination">Streeterville/Taylor</ul>
+        <ul class= "frequency">Resumes 6:00 AM</ul>
+      </li>
+      <li class="arrowright"></li>
+    </ul>
+
+  </section>
+
+  <section class="appmenu">
+
+     <ul class="appmenuoptions">
+       <li class="appmenubutton">
+         <ul class="appmenuheart"></ul>
+         <ul class="appmenutext">Your Stops</ul>
+       </li>
+       <li class="appmenubutton">
+         <ul class="appmenumap"></ul>
+         <ul class="appmenutextselected">Map</ul>
+       </li>
+       <li class="appmenubutton">
+         <ul class="appmenudir"></ul>
+         <ul class="appmenutext">Directions</ul>
+       </li>
+
+     </ul>
+
+
+
+  </section>
+
+</body>
+
 </html>
